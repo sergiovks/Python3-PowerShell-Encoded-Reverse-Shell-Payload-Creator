@@ -3,9 +3,9 @@ import base64
 import argparse
 
 # Parse the command-line arguments
-parser = argparse.ArgumentParser(description='Script to generate PowerShell command with IP and port.')
-parser.add_argument('-i', '--ip', help='IP address', required=True)
-parser.add_argument('-p', '--port', help='Port number', required=True)
+parser = argparse.ArgumentParser(description='Script to generate PowerShell Encoded Reverse Shell Payload.')
+parser.add_argument('-lh', '--listener-ip', help='Listener IPv4 address', required=True)
+parser.add_argument('-lp', '--listener-port', help='Listener Port number', required=True)
 args = parser.parse_args()
 
 # Generate the payload with user-provided IP and port
