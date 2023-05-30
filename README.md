@@ -6,7 +6,7 @@
 ```
 usage: encodedPWSpayloadGenerator.py [-h] -i IP -p PORT
 
-Script to generate PowerShell command with IP and port.
+Script to generate PowerShell Encoded Reverse Shell Payload.
 
 optional arguments:
   -h, --help               show this help message and exit
