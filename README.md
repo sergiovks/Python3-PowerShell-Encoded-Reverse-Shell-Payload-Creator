@@ -4,7 +4,7 @@
 <h3>Usage:</h3>
 
 ```
-usage: script.py [-h] -i IP -p PORT
+usage: encodedPWSpayloadGenerator.py [-h] -i IP -p PORT
 
 Script to generate PowerShell command with IP and port.
 
