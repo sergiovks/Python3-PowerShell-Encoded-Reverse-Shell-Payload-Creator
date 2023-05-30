@@ -10,6 +10,6 @@ Script to generate PowerShell Encoded Reverse Shell Payload.
 
 optional arguments:
   -h, --help               show this help message and exit
-  -i IP, --ip IP           IP address
-  -p PORT, --port PORT     Port number
+  -i IP, --ip IP           Listener IPv4 address
+  -p PORT, --port PORT     Listener Port number
 ```
